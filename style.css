@@ -1,0 +1,83 @@
+body {
+    background-color: #d7d7d7;
+
+}
+
+
+
+footer {
+   /* margin-top: 700px;*/
+    bottom: 0;
+    position: absolute;
+    background-color: indianred;
+    text-align: center;
+    left:0;
+    right: 0;
+    height: 35px;
+
+}
+
+.main-container {
+    background-color: black;
+
+
+}
+.game-title-wrap {
+    background-color: orchid;
+    text-align: center;
+
+}
+
+.dice-container {
+    background-color: #d7d7d7;
+    height: 200px;
+}
+
+.button-wrapper {
+    background-color: silver;
+    text-align: center;
+}
+
+.dice {
+    border: 2px solid burlywood;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+
+}
+
+.col-lg-8.dice-container {
+    margin: 9px;
+}
+
+span {
+    margin: 20px;
+}
+
+#dice-one-pip-4 {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 35px;
+    margin: 77px;
+    width: 35px;
+    background: darkseagreen;
+}
+
+#dice-one {
+
+}
+
+#dice-two {
+
+}
+#nav-bar {
+    font-size: 24px;
+
+
+}
+
+#home {
+    text-decoration: none;
+    margin: 0;
+    padding: 9px;
+}
