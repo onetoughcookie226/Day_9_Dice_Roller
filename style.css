@@ -1,9 +1,6 @@
 body {
     background-color: #d7d7d7;
-
 }
-
-
 
 footer {
    /* margin-top: 700px;*/
@@ -14,18 +11,11 @@ footer {
     left:0;
     right: 0;
     height: 35px;
-
 }
 
-.main-container {
-    background-color: black;
-
-
-}
-.game-title-wrap {
+.title {
     background-color: orchid;
     text-align: center;
-
 }
 
 .dice-container {
@@ -33,17 +23,37 @@ footer {
     height: 200px;
 }
 
-.button-wrapper {
-    background-color: silver;
-    text-align: center;
+#dice-faces div {
+   display: block;
+    float: left;
 }
 
-.dice {
+#dice-one {
     border: 2px solid burlywood;
     height: 150px;
     width: 150px;
-    position: absolute;
+    margin-left: 100px;
+    padding: 10px;
+}
 
+#dice-two {
+    border: 2px solid burlywood;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+#dice-one a {
+    /*border: 2px solid black;*/
+    background: #BADA55;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    float: left;
+    height: 15px;
+    width: 14px;
 }
 
 .col-lg-8.dice-container {
@@ -63,16 +73,13 @@ span {
     background: darkseagreen;
 }
 
-#dice-one {
-
+.button-wrapper {
+    background-color: silver;
+    text-align: center;
 }
 
-#dice-two {
-
-}
 #nav-bar {
     font-size: 24px;
-
 
 }
 
